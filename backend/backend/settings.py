@@ -37,6 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # 3rd parties
+    'rest_framework',
+    
+    # local apps
+    'blog.apps.BlogConfig',
+    'userProfile.apps.UserprofileConfig',
+    
 ]
 
 MIDDLEWARE = [
@@ -98,6 +105,8 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+
 
 
 # Internationalization
